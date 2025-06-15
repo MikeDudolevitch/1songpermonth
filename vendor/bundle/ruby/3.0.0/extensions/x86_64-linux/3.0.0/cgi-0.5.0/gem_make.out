@@ -1,0 +1,15 @@
+current directory: /home/mikedudolevitch/Development/onesongpermonth/vendor/bundle/ruby/3.0.0/gems/cgi-0.5.0/ext/cgi/escape
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250615-87206-gr50r8.rb extconf.rb
+creating Makefile
+
+current directory: /home/mikedudolevitch/Development/onesongpermonth/vendor/bundle/ruby/3.0.0/gems/cgi-0.5.0/ext/cgi/escape
+make DESTDIR\= clean
+
+current directory: /home/mikedudolevitch/Development/onesongpermonth/vendor/bundle/ruby/3.0.0/gems/cgi-0.5.0/ext/cgi/escape
+make DESTDIR\=
+compiling escape.c
+linking shared-object cgi/escape.so
+
+current directory: /home/mikedudolevitch/Development/onesongpermonth/vendor/bundle/ruby/3.0.0/gems/cgi-0.5.0/ext/cgi/escape
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20250615-87206-n07fm4/cgi
