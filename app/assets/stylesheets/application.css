@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+}
+
+.blog-card {
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+  padding: 1em;
+  background: white;
+  transition: background 0.2s;
+}
+
+.blog-card:hover {
+  background: #f8f8f8;
+}
+
+@media (max-width: 600px) {
+  .blog-card {
+    font-size: 90%;
+  }
+}

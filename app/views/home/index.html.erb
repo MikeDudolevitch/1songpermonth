@@ -1,0 +1,11 @@
+<% if @posts.any? %>
+  <% @posts.each do |post| %>
+    <div class="blog-card">
+      <h2><%= link_to post.title, post_path(post) %></h2>
+      <p><%= truncate(post.content, length: 200) %></p>
+      <small><%= post.published_at.strftime("%b %d, %Y") %></small>
+    </div>
+  <% end %>
+<% else %>
+  <p>No blog posts yet. Check back soon!</p>
+<% end %>
